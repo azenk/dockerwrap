@@ -10,5 +10,5 @@ COPY allowed_variables /etc/allowed_variables
 # Add copy commands for any config files.  This could be scripted from the
 # config_manifest eventually
 
-ENTRYPOINT ["/bin/config_template_processor.sh", "/etc/config_manifest"]
+ENTRYPOINT ["/bin/config_template_processor.sh"]
 # Add a CMD entry for running the actual app
