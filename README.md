@@ -1,5 +1,4 @@
 ## Usage
-================
 * Set FROM in Dockerfile to a container that doesn't use environment variables for configuration
 * Add COPY entries to the Dockerfile for all of your files
 * Edit config_manifest to include absolute paths to all config files that should be processed
